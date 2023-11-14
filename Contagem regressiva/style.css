@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    background-color:rgb(255, 255, 188);
+    display: flex;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: .125em;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-weight: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+
+}
+
+li span {
+    display: block;
+    font-size: 1.5em;
+}
+
+.emoji {
+    display: none;
+    padding: 1em;
+}
+
+.emoji span {
+    font-size: 4em;
+    padding: 0.5em;
+}
